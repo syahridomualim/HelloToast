@@ -50,6 +50,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun count() {
         mCount++
         txtView.text = mCount.toString()
-        mCount++
     }
 }
